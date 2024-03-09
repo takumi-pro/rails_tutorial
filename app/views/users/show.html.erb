@@ -2,6 +2,10 @@
 
 <%= render @user %>
 
+<br />
+<p>user's first micropost</p>
+<%= render @user.microposts[0] %>
+
 <div>
   <%= link_to "Edit this user", edit_user_path(@user) %> |
   <%= link_to "Back to users", users_path %>
