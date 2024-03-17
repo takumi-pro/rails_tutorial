@@ -8,6 +8,7 @@ ruby '3.3.0'
 gem 'rails', '~> 7.1.3', '>= 7.1.3.2'
 
 gem 'bootsnap',        '1.16.0', require: false
+gem 'bootstrap-sass',  '3.4.1'
 gem 'importmap-rails', '1.1.5'
 gem 'jbuilder',        '2.11.5'
 gem 'puma',            '6.0.0'
